@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "nest-api",
+      "script": "dist/main.js",
+      "exec_mode": "cluster",
+      "instances": 1,
+      "merge_logs": true,
+      "autorestart": true,
+      "restart_delay": 10000,
+      "kill_timeout": 33340,
+      "watch": false
+    }
+  ]
+}
